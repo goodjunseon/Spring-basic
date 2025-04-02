@@ -14,7 +14,6 @@ import org.springframework.context.annotation.Configuration;
 @Configuration // @Configuration -> 설정 정보
 public class AppConfig {
 
-
     @Bean // @Bean -> Spring Container에 Bean 객체 선언
     // 빈 이름 : memberService, 타입 : MemberService
     public MemberService memberService() {
